@@ -12,12 +12,12 @@ int main()
     case 4:
     case 5:
         printf("workday\n");
-        break;//中止判断
+        break; // 中止判断
     case 6:
     case 7:
         printf("weekend\n");
         break;
-    default:
+    default:   // 默认选项
         printf("ERROR");
         break;
     }
