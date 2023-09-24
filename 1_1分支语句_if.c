@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//else与最接近的if进行匹配
+
 int main()
 {
     int age = 20;

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//case顺序执行，遇到break中止判断
+
 int main()
 {
     int day = 0;
@@ -17,7 +19,7 @@ int main()
     case 7:
         printf("weekend\n");
         break;
-    default:   // 默认选项
+    default: // 默认选项
         printf("ERROR");
         break;
     }
